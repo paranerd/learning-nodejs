@@ -16,6 +16,12 @@ This is a simple demo setup to connect NodeJS to Apache Kafka.
     docker exec kafka /opt/kafka/bin/kafka-topics.sh --create --topic my-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
     ```
 
+1. Install dependencies
+
+    ```bash
+    npm install
+    ```
+
 1. Start the consumer
 
     ```bash
